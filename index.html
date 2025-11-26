@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redwan Hasan Rahat</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #0f0d27;
+            color: #fff;
+            min-height: 80vh;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+        }
+
+        header .logo {
+            font-size: 48px;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        header nav a {
+            color: #fff;
+            margin-left: 20px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+            min-height: calc(80vh - 80px);
+
+        }
+
+        .hero-text {
+            max-width: 600px;
+        }
+
+        .hero-text h1 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .hero-text h2 {
+            font-size: 64px;
+            line-height: 1.3;
+            margin-bottom: 25px;
+        }
+
+        .hero-text p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .hero-text button {
+            background-color: #4a90e2;
+            border: none;
+            padding: 14px 28px;
+            color: #fff;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 6px;
+        }
+
+        .social-icons {
+            margin-top: 25px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .social-icons div img {
+            width: 60px;
+            height: 60px;
+            background-color: #fff;
+            padding: 4px;
+            border-radius: 50%;
+
+        }
+
+        .social-icons div img:hover {
+            cursor: pointer;
+        }
+
+        .hero-image {
+            width: fit;
+            height: fit;
+            background-color: #fff3;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: #fff;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 60px;
+            padding: 0 50px;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat h3 {
+            font-size: 64px;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        .stat p {
+            font-size: 18px;
+            color: #fff;
+        }
+
+        @media(max-width: 900px) {
+            .hero {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .hero-image {
+                margin-top: 30px;
+            }
+
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            header nav {
+                margin-top: 10px;
+            }
+
+            .stats {
+                flex-direction: column;
+                gap: 20px;
+                padding: 0 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <a href="index.html"><div class="logo">RAHAT</div></a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="https://www.redwanrahat.com/" target="_blank" rel="noopener noreferrer">My Works</a>
+
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>I am Redwan Hasan Rahat</h1>
+            <h2>Your Trusted <br> Web Developer & <br> Brand Builder</h2>
+            <p>Let's Design, Develop, and Dominate Your Brand with Code & Strategy</p>
+            <button>Get a Quote</button>
+
+            <div class="social-icons">
+                <div><img src="public/linkedin.png" alt=""></div>
+                <div><img src="public/instagram.png" alt=""></div>
+                <div><img src="public/email.png" alt=""></div>
+                <div><img src="public/github.png" alt=""></div>
+
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="public/portfolio.png" alt="">
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="stat">
+            <h3>2+</h3>
+            <p>Years of Experience</p>
+        </div>
+        <div class="stat">
+            <h3>30+</h3>
+            <p>Projects Completed</p>
+        </div>
+        <div class="stat">
+            <h3>5+</h3>
+            <p>Clients Served</p>
+        </div>
+        <div class="stat">
+            <h3>10+</h3>
+            <p>Awards Won</p>
+        </div>
+    </section>
+
+</body>
+
+</html>
